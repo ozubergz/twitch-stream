@@ -1,0 +1,109 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #232323;
+}
+
+.nav-group {
+  margin: 0;
+  padding: 2px;
+  font-family: 'Lalezar', cursive;
+  background-color: #613C78;
+  text-align: center;
+  display: block;
+}
+
+.nav-title {
+  margin-bottom: -10px;
+}
+
+.nav-btn {
+  display: inline-block;
+  position: relative;
+  left: 250px;
+  bottom: -10px;
+  width: 60px;
+  color: white;
+  padding: 5px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.nav-btn:hover {
+  cursor: pointer;
+  background: #232323;
+}
+
+.nav-btn-color {
+  background: #232323;
+}
+
+.table {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  display: block;
+  width: 50%;
+  background-color: #353435;
+  margin: 0 auto;
+  margin-top: 12px;
+  border-radius: 5px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.table:hover {
+  background: #613C78;
+}
+
+.flex-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.user-stats {
+  width: 30%;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.user-info {
+  margin-top: 10px;
+}
+
+.user-info .live {
+  margin-right: 10px;
+}
+
+.user-info .views {
+  margin-right: 10px;
+  font-size: 10px;
+}
+
+.user-info .followers {
+  font-size: 10px;
+}
+
+.title-info{
+  width: 70%;
+}
+
+.title-info .title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.title-info .game {
+  margin-top: 10px;
+}
+
+
+
+
+
